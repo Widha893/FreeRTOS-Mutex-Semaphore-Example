@@ -1,4 +1,4 @@
-# 🔬 FreeRTOS Mutex and Semaphore Example: Shared Resource
+# 🔬 FreeRTOS Mutex and Semaphore Example: Shared Resource and Priority Inversion
 This project is a demonstration of the priority inversion problem and how FreeRTOS mutex automatically solves it using priority inheritance.
 
 The code creates three tasks with different priorities (High, Medium, Low) that compete for the CPU. The High and Low priority tasks also compete for a single shared resource (a counter), which is protected by a mutex.
